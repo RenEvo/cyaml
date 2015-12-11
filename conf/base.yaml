@@ -1,0 +1,6 @@
+http:
+    port: 80
+    name: Test Server
+
+elasticsearch:
+    host: [ localhost:9200 ]
