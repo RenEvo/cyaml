@@ -1,18 +1,25 @@
 {
-  "name": "yml-test",
-  "version": "1.0.0",
-  "description": "Testing Stuff",
+  "name": "cyaml",
+  "version": "0.0.1",
+  "description": "Loads compressed style yaml files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RenEvo/cyaml.git"
+  }
   "keywords": [
-    "test",
+    "compressed",
     "yml"
   ],
   "author": "Tom Anderson",
   "license": "WTFPL",
   "dependencies": {
     "js-yaml": "^3.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
   }
 }
